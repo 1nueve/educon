@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+/*adding border box*/
+/* line 13, assets/scss/styles.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 16, assets/scss/styles.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* line 20, assets/scss/styles.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 25, assets/scss/styles.scss */
+body nav a.active {
+  text-decoration: underline;
+  color: red !important;
+}
+
+/* line 34, assets/scss/styles.scss */
+body section.banner {
+  height: 645px;
+  padding: 154px 100px;
+  background: url("../img/banner.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 45, assets/scss/styles.scss */
+body section.banner .content span, body section.banner .content h1, body section.banner .content p, body section.banner .content a {
+  color: #ffffff;
+}
+
+/* line 49, assets/scss/styles.scss */
+body section.banner .content span, body section.banner .content h1 {
+  font-weight: 700;
+}
+
+/* line 53, assets/scss/styles.scss */
+body section.banner .content h1 {
+  font-size: 3.8em;
+}
+
+/* line 57, assets/scss/styles.scss */
+body section.banner .content a {
+  width: 208px;
+  height: 50px;
+  background: #ff0006;
+  text-align: center;
+  display: inline-block;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+/* line 67, assets/scss/styles.scss */
+body section.banner .content a:hover {
+  opacity: .5;
+  background: #ffffff;
+  color: #ff0006;
+}
+
+/* line 81, assets/scss/styles.scss */
+body section.featured {
+  background-color: #f9f9f9;
+  padding: 50px;
+  margin-bottom: 40px;
+}
+
+/* line 88, assets/scss/styles.scss */
+body section.featured .header {
+  margin-bottom: 30px;
+}
+
+/* line 90, assets/scss/styles.scss */
+body section.featured .header h2 {
+  font-size: 1em;
+  font-weight: 600;
+  padding-left: 12px;
+  border-left: 4px solid #ff0006;
+}
+
+/* line 97, assets/scss/styles.scss */
+body section.featured .header p {
+  padding-left: 12px;
+  color: #a7a7a7;
+}
+
+/* line 102, assets/scss/styles.scss */
+body section.featured .header .navbuttoms a {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #a7a7a7;
+  border-radius: 50%;
+  display: inline-block;
+  color: #a7a7a7;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 35px;
+  text-decoration: none;
+}
+
+/* line 115, assets/scss/styles.scss */
+body section.featured .header .navbuttoms a:hover {
+  background-color: #a7a7a7;
+  color: #ffffff;
+}
+
+/* line 122, assets/scss/styles.scss */
+body section.featured .card {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* line 126, assets/scss/styles.scss */
+body section.featured .card span, body section.featured .card p {
+  color: #a7a7a7;
+}
+
+/* line 130, assets/scss/styles.scss */
+body section.featured .card span {
+  font-size: .7em;
+}
+
+/* line 134, assets/scss/styles.scss */
+body section.featured .card h5 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* line 139, assets/scss/styles.scss */
+body section.featured .card p {
+  font-size: .8em;
+  margin-bottom: 33px;
+}
+
+/* line 145, assets/scss/styles.scss */
+body section.featured .card a.btn.btn-primary {
+  background-color: #ff0006;
+  border: 0;
+  font-size: 0.9em;
+  border-radius: 0;
+  font-weight: 300;
+}
+
+/* line 160, assets/scss/styles.scss */
+body footer {
+  background: #1f232f;
+  border-top: 1px solid #828282;
+}
+
+/* line 163, assets/scss/styles.scss */
+body footer .topfooter {
+  padding: 90px 0;
+}
+
+/* line 166, assets/scss/styles.scss */
+body footer .topfooter h3 {
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+/* line 172, assets/scss/styles.scss */
+body footer .topfooter ul {
+  padding: 0;
+  font-size: 0.8em;
+}
+
+/* line 177, assets/scss/styles.scss */
+body footer .topfooter li, body footer .topfooter li a {
+  list-style: none;
+  color: #919699;
+}
+
+/* line 189, assets/scss/styles.scss */
+.copy {
+  background: #1b1e27;
+  padding: 35px 0;
+}
+
+/* line 192, assets/scss/styles.scss */
+.copy p {
+  color: #ffffff;
+  text-align: center;
+  font-size: .8em;
+}
+
+/* line 202, assets/scss/styles.scss */
+.custom-carets .dropdown-toggle:after {
+  font-family: "FontAwesome";
+  content: "\f107";
+  border-top: 0;
+  vertical-align: 0;
+}
+
+@media screen and (max-device-width: 576px) {
+  /* line 218, assets/scss/styles.scss */
+  body .onlyDesk {
+    display: none;
+  }
+  /* line 223, assets/scss/styles.scss */
+  body nav .navbar-brand {
+    width: 150px;
+  }
+  /* line 226, assets/scss/styles.scss */
+  body nav .navbar-brand img {
+    max-width: 100%;
+  }
+  /* line 234, assets/scss/styles.scss */
+  body section.banner {
+    padding: 154px 50px;
+  }
+  /* line 237, assets/scss/styles.scss */
+  body section.banner .content h1 {
+    font-size: 2em;
+  }
+  /* line 243, assets/scss/styles.scss */
+  body section.featured .card {
+    margin-bottom: 20px;
+  }
+  /* line 248, assets/scss/styles.scss */
+  body .newsletter, body .newsletter ul {
+    text-align: center;
+  }
+}
